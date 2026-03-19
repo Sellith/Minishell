@@ -1,6 +1,6 @@
 # Minishell
 
-Minishell est un projet 42 implémentant un shell Unix simplifiée en C, recréant les fonctionnalités essentielles de bash comme les pipes, les redirections et les variables d'environnement. Ce projet est typiquement réalisé dans le cadre de formations comme 42 School pour maîtriser les processus, les signaux et le parsing de commandes.
+Minishell est un projet 42 implémentant un shell Bash simplifiée en C, recréant les fonctionnalités essentielles de bash comme les pipes, les redirections et les variables d'environnement. Ce projet est typiquement réalisé dans le cadre de formations comme 42 School pour maîtriser les processus, les signaux et le parsing de commandes.
 Fonctionnalités
 
 - Lecture et parsing de commandes avec gestion des espaces, quotes et escapes.

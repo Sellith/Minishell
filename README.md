@@ -1,6 +1,6 @@
 # Minishell
 
-Minishell est un projet 42 implémentant un shell Bash simplifiée en C, recréant les fonctionnalités essentielles de bash comme les pipes, les redirections et les variables d'environnement. Ce projet est typiquement réalisé dans le cadre de formations comme 42 School pour maîtriser les processus, les signaux et le parsing de commandes.
+Minishell est un projet 42 implémentant un shell Bash simplifiée en C, recréant les fonctionnalités essentielles du terminal comme les pipes, les redirections et les variables d'environnement. Ce projet est typiquement réalisé dans le cadre de formations comme 42 School pour maîtriser les processus, les signaux et le parsing de commandes.
 Fonctionnalités
 
 - Lecture et parsing de commandes avec gestion des espaces, quotes et escapes.
@@ -36,7 +36,7 @@ Compilez le projet :
 
 Cela génère l'exécutable minishell dans un dossier bin/ généré dans le dossier local.
 
-Utilisation
+## Utilisation
 
 Lancez le shell :
 
@@ -54,8 +54,8 @@ Exemples de commandes :
     $ exit
 
 Pour quitter : exit ou Ctrl+D.
-Structure du Projet
 
+## Structure du Projet
 
     Minishell/
     ├── Dependencies   # Contient ma libft ameliorée  
@@ -73,7 +73,7 @@ Structure du Projet
 
 ## Règles du Makefile
 
-Le makefile a été confectionné de sorte que tout peut etre contrôlé à partir de ses règles :
+Le makefile a été confectionné de sorte que presque tout peut-etre contrôlé à partir de ses règles :
 $(NAME)
 
 ### Règles générales 
